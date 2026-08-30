@@ -11,9 +11,9 @@ import {
 import { Nav } from '@/components/nav';
 import { Reveal } from '@/components/reveal';
 
-const CONTACT_PHONE = '+1 (212) 555-0140';
-const CONTACT_PHONE_HREF = 'tel:+12125550140';
-const CONTACT_EMAIL = 'inquiries@highdown.com';
+const CONTACT_PHONE = '+1 (215) 850-3404';
+const CONTACT_PHONE_HREF = 'tel:+12158503404';
+const CONTACT_EMAIL = 'chris@highdownautomotive.com';
 
 export default function Home() {
   return (
