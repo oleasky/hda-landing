@@ -27,9 +27,8 @@ vercel deploy --prod
 
 ## Content notes
 
-- **Contact details are placeholders** — update `CONTACT_PHONE`,
-  `CONTACT_PHONE_HREF`, and `CONTACT_EMAIL` at the top of
-  `src/app/page.tsx` with the real phone number and email.
+- Contact details live in the `CONTACT_PHONE`, `CONTACT_PHONE_HREF`, and
+  `CONTACT_EMAIL` constants at the top of `src/app/page.tsx`.
 - Brand assets (`highdown-logo.svg`, `h-icon.svg`, `hero-cover.png`,
   `decorator-vector.svg`) are copied from `hda-mvp`.
 - Photography in `public/images/*.jpg` is sourced from Pexels (free license,
