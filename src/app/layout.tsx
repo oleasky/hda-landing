@@ -17,6 +17,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.highdownautomotive.com'),
   title: 'Highdown Automotive — Exceptional Collector Cars',
   description:
     'Highdown Automotive is a specialized collector car dealership. Curated sourcing, documented provenance, and discreet sales of investment-grade automobiles.',
@@ -25,9 +26,23 @@ export const metadata: Metadata = {
     description:
       'A specialized collector car dealership. Curated sourcing, documented provenance, and discreet sales of investment-grade automobiles.',
     type: 'website',
+    url: '/',
+    siteName: 'Highdown Automotive',
+    images: [
+      {
+        url: '/og.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Highdown Automotive — collector car in dramatic light',
+      },
+    ],
   },
-  icons: {
-    icon: '/images/h-icon.svg',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Highdown Automotive — Exceptional Collector Cars',
+    description:
+      'A specialized collector car dealership. Curated sourcing, documented provenance, and discreet sales of investment-grade automobiles.',
+    images: ['/og.jpg'],
   },
 };
 

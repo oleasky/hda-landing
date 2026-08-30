@@ -50,7 +50,6 @@ export default function Home() {
                 'linear-gradient(270deg, rgba(14, 17, 43, 0.30) 0%, #0E112B 100%)',
             }}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0E112B] via-transparent to-[#0E112B]/40" />
         </div>
 
         <div className="relative z-20 mx-auto w-full max-w-7xl px-6 py-32 lg:px-8">
